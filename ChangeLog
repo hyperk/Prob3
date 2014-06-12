@@ -1,0 +1,31 @@
+
+Library Version 2.1  (2012.12.25)
+
+ + Allow differentiation between "one mass scale" mode 
+   and standard two mass scale schemes. This only 
+   affects the way in which the mass hierarchy is 
+   input in the computation
+
+Library Version 2.0  (2012.11.08)
+
+ + User is no longer responsible for changing the sign 
+   of delta_cp for antineutrino propagation 
+ + Add a simple example program to compute mu2e oscillation 
+   probabilities using an analytic expression.
+ + Proton to Neutron ratio used to defined conversion from
+   matter to electron density is now configurable 
+
+
+Library Version 1.0  (versions prior to 2012.11.08)
+
+ + Original library version 
+   
+   * To compute oscillation probabilities assuming an inverted hierarchy
+     use a negative number for the value of delta-m^2
+
+   * To compute oscillation probabilities for antineutrinos
+     - Change the sign of the input neutrino flavor ( see below )
+     - Change the sign of Delta_cp
+
+
+
