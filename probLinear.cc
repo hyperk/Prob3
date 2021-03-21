@@ -126,7 +126,7 @@ int main(int argc, char * argv[] )
 
 
   stringstream ssE, ssL;
-  TH1D * histos[3][2];
+  TH1D * histos[4][2];
 
   /// mu to E 
   ssE.str(""); ssE <<  "P(#nu_{e} #rightarrow #nu_{e})" << " L = " << BasePath ; 
